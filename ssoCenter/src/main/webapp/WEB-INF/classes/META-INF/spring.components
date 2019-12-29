@@ -1,0 +1,4 @@
+#
+#Wed May 08 17:19:28 CST 2019
+com.sso.listener.SessionListener=javax.servlet.annotation.WebListener
+com.sso.controller.SSOController=org.springframework.stereotype.Component

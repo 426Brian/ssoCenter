@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ssoCenter:war exploded">
+    <output-path>$PROJECT_DIR$/target/ssoCenter</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ssoCenter" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.1.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.1.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.1.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.1.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.1.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.8.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/ssoCenter/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ssoCenter/web/Web" />
+    </root>
+  </artifact>
+</component>

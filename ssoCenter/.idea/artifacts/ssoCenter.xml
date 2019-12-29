@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ssoCenter">
+    <output-path>$PROJECT_DIR$/src/main/webapp</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ssoCenter/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ssoCenter" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
